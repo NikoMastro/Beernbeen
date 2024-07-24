@@ -1,0 +1,46 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round");
+
+/* Importing components */
+@import url("components/card.css");
+@import url("components/navbar.css");
+
+/* Importing layouts */
+@import url("pages/cities.css");
+
+
+body {
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+  background: rgb(8, 2, 25);
+}
+p {
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-size: 100px;
+  color: aliceblue;
+  text-shadow: 6px 6px #2a2a2a;
+  position: absolute;
+  top: -20px;
+
+}
+h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 23px;
+}
+.padded {
+  padding: 30px 0;
+}
+
+a {
+  color: white
+}
